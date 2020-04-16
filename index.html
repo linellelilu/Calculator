@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<style>
+    h1 {
+        background-color:powderblue; 
+        width: 388px;
+        height: 85px;
+        border: 1px solid #000;
+        color: darkblue;
+        font-size: 150%;
+        margin: 0px;
+        text-align: right;
+        padding: 5px;
+        border-radius: 20px;
+      }
+    td {
+        padding: 25px;
+        text-align: center;
+        border:1px solid #000;
+        background-color: darkblue;
+        color: white;
+        border-radius: 80%;
+        cursor: pointer;
+    }  
+    body {
+        font-size:300%;
+        width:400px;
+        height:200px;
+    }
+    table {
+        width:400px;
+        height:200px;
+        border:1px solid #000;
+        border-radius: 30px;
+        margin: auto;
+    }
+    </style>
+<body>
+    <script src="index.js"></script>
+    <h1 id='table1'>0</h1>
+    <table>
+        <tr>
+            <td onclick="print(7)">7</td>
+            <td onclick="print(8)">8</td>
+            <td onclick="">9</td>
+            <td onclick="">+</td>
+        </tr>
+        <tr>
+            <td onclick="">4</td>
+            <td onclick="">5</td>
+            <td onclick="">6</td>
+            <td onclick="">-</td>
+        </tr>
+        <tr>
+            <td onclick="">1</td>
+            <td onclick="">2</td>
+            <td onclick="">3</td>
+            <td onclick="">x</td>
+        </tr>
+        <tr>
+            <td onclick="">0</td>
+            <td onclick="">=</td>
+            <td onclick="Clear1()">C</td>
+            <td onclick="">/</td>
+        </tr>
+
+    </table>
+    
+</body>
+
+</html>
